@@ -17,7 +17,7 @@ function Home() {
             <Section
               title="Model Y"
               description="Order Online For Touchless Delivery"
-              backgroundImg="model-y.jpg"
+              backgroundImg="model-Y.jpg"
               leftBtnText="Custom Order"
               rightBtnText="Existing Inventory"
             
@@ -26,6 +26,14 @@ function Home() {
               title="Model 3"
               description="Order Online For Touchless Delivery"
               backgroundImg="model-3.jpg"
+              leftBtnText="Custom Order"
+              rightBtnText="Existing Inventory"
+
+            />
+            <Section
+              title="Model X"
+              description="Order Online For Touchless Delivery"
+              backgroundImg="model-x.jpg"
               leftBtnText="Custom Order"
               rightBtnText="Existing Inventory"
 
@@ -61,5 +69,6 @@ export default Home
 
 const Container = styled.div`
       height: 100vh;
+      z-index: 10;
 `
   
